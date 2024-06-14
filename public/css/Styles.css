@@ -1,0 +1,176 @@
+:root {
+    --RaisinBlack: #262322;
+    --CaputMortuum: #63372C;
+    --BurntSienna: #C97D60;
+    --Melon: #FFBCB5;
+    --Almond: #F2E5D7;
+}
+
+* {
+    font-family: "Manrope", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    margin: 0;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.navbar {
+    width: 100%;
+    height: 71px !important;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background: var(--CaputMortuum);
+    position: sticky;
+    top: 0;
+    color: white;
+}
+
+.navbar h4 {
+    margin-left: 2rem;
+}
+
+.navbar ul {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    padding-right: 2rem;
+}
+
+.navbar ul li {
+    list-style: none;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.navbar ul li a:hover {
+    text-decoration: none;
+    color: var(--Melon);
+}
+
+.box {
+    width: 100%;
+    height: 10rem;
+}
+
+.box a {
+    display: block;
+    background-color: #f1f1f1;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    border: 1px solid #ccc;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    text-decoration: none;
+    border-radius: 12px;
+}
+
+.box a h3 {
+    padding: 1rem;
+}
+
+.box a:hover {
+    background-color: #e0e0e0;
+}
+
+.box-cont {
+    width: 100%;
+    gap: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.box-cont1 {
+    width: 80%;
+    gap: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.box-cont2 {
+    gap: 1rem;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+/* footer section styling */
+footer {
+    background: var(--CaputMortuum) !important;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    width: 100%;
+    bottom: 0;
+}
+
+footer span a {
+    color: #63372C;
+    text-decoration: none;
+}
+
+footer span a:hover {
+    text-decoration: underline;
+}
+
+.footer2 {
+    background: var(--CaputMortuum) !important;
+    padding: 15px 23px;
+    color: #fff;
+    text-align: center;
+    position: relative;
+    width: 100%;
+}
+
+.footer2 span a {
+    color: #63372C;
+    text-decoration: none;
+}
+
+.footer2 span a:hover {
+    text-decoration: underline;
+}
+
+#title .title{
+    display: flex;
+    gap: 5px;
+    margin-top: 1rem;
+}
+
+#title .title h1{
+    font-size: 1.5rem;
+    line-height: 1;
+    font-weight: bold;
+}
+
+#title .title span{
+    font-size: 0.8rem;
+    line-height: 1;
+}
+
+#searchcat{
+    display: flex;
+    gap: 50px;
+}
+
+
+
